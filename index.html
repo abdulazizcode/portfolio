@@ -44,17 +44,77 @@
         filter: alpha(opacity=30);
     }
 
+    .showcase{
+        background-color: #F3F3F3;
+        height: 180px;
+    }
+
+    .showcase__info{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 180px;
+            
+        }
+        .showcase__info h2{
+            margin-bottom: 20px;
+            font-size: 20px;
+            letter-spacing: 0.4rem;
+            font-family: 'Lato';
+            text-transform: uppercase;
+            margin-bottom: 30px;
+        }
+        .showcase__info p{
+            font-size: 20px;
+            letter-spacing: 0.1rem;
+            font-family: 'Lato';
+            text-transform: uppercase;
+            opacity: 0.6;
+            filter: alpha(opacity=30);
+        }
+
+
     @media only screen and (max-width: 500px) {
         .header .right{
             display: none;
         }
+        .name{
+            display: none;
+        }
+
+        .showcase{
+        background-color: #F3F3F3;
+    }
+
+        .showcase__info{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 180px;
+            
+        }
+        .showcase__info h2{
+            margin-top: -30px;
+            margin-bottom: 30px;
+            font-size: 25px;
+            letter-spacing: 0.4rem;
+            font-family: 'Lato';
+        }
+        .showcase__info p{
+            font-size: 12px;
+            letter-spacing: 0.1rem;
+            font-family: 'Lato';
+        }
+
     }
 </style>
 <body>
     <header class="header">
         <div class="left">
             <i class="fa fa-bars" aria-hidden="true"></i>
-            <h2>Abdusamadzoda Abdulaziz</h2>
+            <h2>Abdusamadzoda <i class="name">Abdulaziz</i></h2>
         </div>
         <div class="right">
             <i class="fa fa-github" aria-hidden="true"></i>
@@ -62,6 +122,13 @@
             <i class="fa fa-envelope" aria-hidden="true"></i>
         </div>
     </header>
+
+    <section class="showcase">
+        <div class="showcase__info">
+            <h2>Portfolio</h2>
+            <p>Front-End  &#9679; Back-End  &#9679; Full-Stack </p>
+        </div>
+    </section>
 </body>
 </html>
 
