@@ -14,6 +14,14 @@
         object-fit: contain;
         height: 50%;
     }
+    .sidebar{
+        width: 300px;
+        background-color: whitesmoke;
+    }
+    .sidebar--image__container{
+        height: 250px;
+        background-color: yellow;
+    }
 
     @media only screen and (max-width: 500px){
         .image__showcase img {
@@ -43,6 +51,22 @@
 
     <section class="image__showcase">
        <img src="./img/futureofdesktop-870x220-removebg.png" alt="">
+    </section>
+
+    <section class="sidebar">
+        <div class="sidebar--image__container">
+            <div class="backgroun--image"></div>
+        </div>
+        <div class="sidebar--navbar__container">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#"> <i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+                    <li><a href="#"> <i class="fa fa-book" aria-hidden="true"></i>About</a></li>
+                    <li><a href="#"> <i class="fa fa-briefcase" aria-hidden="true"></i>Portfolio</a></li>
+                    <li><a href="#"> <i class="fa fa-envelope-o" aria-hidden="true"></i>Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </section>
 </body>
 </html>
