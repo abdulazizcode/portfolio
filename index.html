@@ -2,10 +2,65 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abdusamadzoda Abdulaziz |Portfolio</title>
 </head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: "Lato";
+    }
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color:#24292E;
+        color: #ffffff;
+    }
+    .left{
+        display: flex;
+        align-items: center;
+    }
+    .left i{
+        margin-right: 20px;
+        font-size: 25px;
+    }
+    .right i {
+        font-size: 25px;
+        margin: 0 5px 0 5px;
+    }
+    .header i:hover {
+        opacity: 0.3;
+        filter: alpha(opacity=30);
+    }
+
+    @media only screen and (max-width: 500px) {
+        .header .right{
+            display: none;
+        }
+    }
+</style>
 <body>
-    
+    <header class="header">
+        <div class="left">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+            <h2>Abdusamadzoda Abdulaziz</h2>
+        </div>
+        <div class="right">
+            <i class="fa fa-github" aria-hidden="true"></i>
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+        </div>
+    </header>
 </body>
 </html>
+
