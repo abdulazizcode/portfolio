@@ -120,7 +120,13 @@ body{
     margin-right: 15px;
     font-size: 28px;
 }
-
+@media only screen and (max-width: 430px){
+    .showcase__info p{
+        font-size: 10px;
+        letter-spacing: 0.1rem;
+        font-family: 'Lato';
+    }
+}
 
 
 @media only screen and (max-width: 400px) {
