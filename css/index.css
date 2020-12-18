@@ -166,6 +166,9 @@ li{
 }
 a{
     text-decoration: none;
+    color: #F2F2F2;
+}
+.navbar a{
     color: #757575;
 }
 .image__showcase img {
