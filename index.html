@@ -9,7 +9,17 @@
     <title>Abdusamadzoda Abdulaziz |Portfolio</title>
 </head>
 <style>
+    .image__showcase img {
+        width: 100%;
+        object-fit: contain;
+        height: 50%;
+    }
 
+    @media only screen and (max-width: 500px){
+        .image__showcase img {
+            height: auto;
+        }
+    }
 </style>
 <body>
     <header class="header">
@@ -29,6 +39,10 @@
             <h2>Portfolio</h2>
             <p>Front-End  &#9679; Back-End  &#9679; Full-Stack </p>
         </div>
+    </section>
+
+    <section class="image__showcase">
+       <img src="./img/futureofdesktop-870x220-removebg.png" alt="">
     </section>
 </body>
 </html>
