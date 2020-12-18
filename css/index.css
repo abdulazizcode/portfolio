@@ -184,6 +184,17 @@ li:hover {
 .line{
     margin-top: 20px;
 }
+.close i{
+    position: absolute;
+    top: -20px;
+    left: 165px;
+    font-size: 26px;
+    color: #ffffff;
+}
+.close i:hover{
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+}
 
 
 @media only screen and (max-width: 500px){
