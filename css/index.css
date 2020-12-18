@@ -120,13 +120,7 @@ body{
     margin-right: 15px;
     font-size: 28px;
 }
-@media only screen and (max-width: 495px){
-    .showcase__info p{
-        font-size: 10px;
-        letter-spacing: 0.1rem;
-        font-family: 'Lato';
-    }
-}
+
 
 
 @media only screen and (max-width: 400px) {
@@ -291,6 +285,26 @@ li:hover {
 
     }
 
+    .showcase__info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 180px;
+        
+    }
+    .showcase__info h2{
+        margin-top: -30px;
+        margin-bottom: 30px;
+        font-size: 25px;
+        letter-spacing: 0.4rem;
+        font-family: 'Lato';
+    }
+    .showcase__info p{
+        font-size: 12px;
+        letter-spacing: 0.1rem;
+        font-family: 'Lato';
+    }
 
 
 }
