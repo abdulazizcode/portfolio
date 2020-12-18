@@ -62,16 +62,77 @@ body{
         opacity: 0.6;
         filter: alpha(opacity=30);
     }
-
-
-@media only screen and (max-width: 500px) {
-    .header .right{
-        display: none;
+    .main--container{
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
     }
-    .name{
-        display: none;
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+        box-shadow: 2px 2px 2px 2px lightgrey;
+        height: 660px
     }
+    .container:hover{
+        box-shadow: 5px 5px 5px 5px lightgray;
+    }
+    .image--container img {
+        height: 250px;
+        width: 100%;
+    }
+    .info--container p {
+        font-family:'Times New Roman', Times, serif;
+        font-size: 18px;
+        text-align: justify;
+        text-justify: inter-word;
+        padding: 20px;
+    }
+    .info--container h2 {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        width: 100%;
+    }
+    .btn{
+        width: 90%;
+        padding: 10px;
+        margin: 0 auto;
+        background-color: #24292E;
+        color: white;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        border-radius: 6px;
+        box-shadow: 2px 2px 2px 2px lightgrey;
+}
+.btn i {
+    margin-right: 15px;
+    font-size: 28px;
+}
 
+
+
+@media only screen and (max-width: 400px) {
+.header .right i {
+    font-size: 20px;
+    margin: 5px;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
     .showcase{
     background-color: #F3F3F3;
 }
@@ -197,8 +258,33 @@ li:hover {
 }
 
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 414px){
     .image__showcase img {
         height: auto;
     }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .name{
+        display: none;
+    }
+    .info--container h2{
+        font-size: 18px;
+    }
+
+
+    .buttons{
+        width: 100%;
+    }
+
+    .buttons .btn{
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+
+    }
+
+
+
 }
