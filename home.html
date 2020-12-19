@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Abdusamadzoda Abdulaziz | Home Page</title>
+</head>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .main--home{
+        background:  linear-gradient(to bottom, rgba(49,49,49, 0.5), rgba(49,49,49, 0.73)), url('./img/pc.jpg') no-repeat center center/cover;
+    }
+    .content-area{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .content img {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        border: 5px solid lightgray;
+        align-self: center;
+    }
+
+    a{
+        text-decoration: none;
+    }
+    li {
+        list-style-type: none;
+    }
+    li a{
+        
+        /* font-size: 30px; */
+        color: #ffffff;
+        /* padding: 15px; */
+    }
+    .nav--links{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    .nav--links a {
+        font-size: 35px;
+    }
+
+</style>
+<body>
+    <main class="main--home">
+        <div class="content-area">
+            <div class="content">
+                <img src="/img/download.png" alt="">
+                <h1>Abdusamadzoda Abdulaziz</h1>
+                <p>Front-End Developer</p>
+                <nav class="nav--links">
+                    <li><a href="home.html"> <i class="fa fa-book" aria-hidden="true"></i></a></li>
+                    <li><a href="#"> <i class="fa fa-briefcase" aria-hidden="true"></i></a></li>
+                    <li><a href="#"> <i class="fa fa-briefcase" aria-hidden="true"></i></a></li>
+                    <li><a href="#"> <i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+                </nav>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
