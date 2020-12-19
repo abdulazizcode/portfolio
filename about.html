@@ -33,10 +33,20 @@
       letter-spacing: 0.2rem;
   }
 
-  .info{
+  .info__about p{
       padding: 20px;
   }
-  .info p{
+  .title--info p{
+      font-weight:bolder;
+      transition: all 0.2s;
+       background-image: linear-gradient(to right, black, #efefef);
+       -webkit-background-clip: text;
+       color:transparent;
+  }
+  .title--info p:hover{
+      transform:skewY(2deg);
+  }
+  .info__about p{
     text-align: justify;
     font-family:'Lato';
     line-height: 40px;
@@ -46,10 +56,10 @@
       margin-top: 25px;
   }
   @media only screen and (max-width: 600px){
-    .info{
+    .info__about{
       padding: 5px;
   }
-  .info p{
+  .info__about p{
     text-align: justify;
     font-family:'Lato';
     line-height: 30px;
@@ -79,7 +89,7 @@
             <p>Welcome to my website</p>
         </div>
         <div class="info--container">
-            <div class="info">
+            <div class="info__about">
                 <p>I am self taught Web Developer
                     I have always found coding intuitive and have pushed myself to learn the most effective ways to achieve a result.
                     
@@ -92,7 +102,7 @@
     </main>
 
 
-    <section id="show"  class="sidebar">
+ <section id="show"  class="sidebar">
         <div class="sidebar--image__container">
             <div class="backgroun--image">
                 <img src="./img/photo_2020-12-19_01-14-02.jpg" alt="">
