@@ -208,10 +208,14 @@ a{
     object-fit: contain;
     height: 50%;
 }
-.sidebar{
-    width: 300px;
-    position: relative;
-    display: none;
+#show{
+    height: 100%;
+    width: 0;
+    z-index: 1;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.4s;
+    background-color: #24292E;
 }
 .sidebar--image__container{
     height: 250px;
@@ -264,6 +268,7 @@ a{
     font-size: 18px;
     color: #757575;
 }
+
 li:hover {
     background-color: #F2F2F2;
 }
