@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+i@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 @keyframes text {
   0% {
     color: black;
@@ -84,6 +84,7 @@ img {
 }
 .home__container--links .icon:hover {
   background-color: #a9a9a9 !important;
+  outline:none;
 }
 .home__container--links i {
   font-size: 28px;
@@ -91,6 +92,7 @@ img {
 }
 .home__container--links i:hover {
   color: #fff;
+  outline:none;
 }
 .home__container--links span {
   position: absolute;
