@@ -1,0 +1,16 @@
+@keyframes text{
+    0%{
+      color: black;
+      margin-bottom: -40px;
+    }
+    
+    20%{
+      letter-spacing:10px;
+      margin-bottom:10px;
+    }
+  
+    100%{
+      letter-spacing: 0.1em;
+      margin-bottom:10px;
+    }
+  }
