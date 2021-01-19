@@ -75,6 +75,8 @@ img {
   justify-content: center;
   align-items: center;
   position: relative;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
 }
 .home__container--links .icon {
   padding: 8px;
@@ -85,6 +87,8 @@ img {
 .home__container--links .icon:hover {
   background-color: #a9a9a9 !important;
   outline:none;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
 }
 .home__container--links i {
   font-size: 28px;
@@ -93,6 +97,8 @@ img {
 .home__container--links i:hover {
   color: #fff;
   outline:none;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
 }
 .home__container--links span {
   position: absolute;
