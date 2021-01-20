@@ -45,13 +45,13 @@ img {
   height: auto;
   object-fit: contain;
   border-radius: 50%;
-  border: 4px solid #A9A9A9;
+  border: 4px solid #a9a9a9;
 }
 
 .home__container--info {
   text-align: center;
   width: 300px;
-  color: #ffffff;
+  color: #fff;
   height: auto;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -71,7 +71,7 @@ img {
 .home__container--info h3 {
   font-family: "Lato";
   letter-spacing: 0.1em;
-  color: #ffffff;
+  color: #fff;
   font-size: 18px;
   font-weight: 200;
 }
@@ -126,7 +126,7 @@ img {
   justify-content: space-between;
   background-color: #24292e;
   height: 64px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .header .header--logo {
@@ -139,7 +139,7 @@ img {
   padding-left: 20px;
   font-size: 25px;
   margin-right: 20px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .header .header--logo a i:hover {

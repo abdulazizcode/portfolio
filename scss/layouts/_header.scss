@@ -1,9 +1,9 @@
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: #24292e;
+    background-color: $color-primary;
     height: 64px;
-    color: #ffffff;
+    color: $color-whight;
 }
 .header .header--logo{
     display:flex;
@@ -14,10 +14,10 @@
     padding-left: 20px;
     font-size: 25px;
     margin-right: 20px;
-    color: #ffffff;
+    color: $color-whight;
 }
 .header .header--logo a i:hover{
-    color:#a9a9a9;
+    color:$color-secondary;
 }
 .header .header--logo h3{
     font-family: 'Lato';
@@ -32,10 +32,10 @@
     margin-right: 20px;
 }
 .header .header--logo--links a {
-    color:#fff;
+    color:$color-whight;
 }
 .header .header--logo--links a:hover{
-    color:#a9a9a9;
+    color:$color-secondary;
 }
 .header .header--logo--links i{
     font-size: 25px;
