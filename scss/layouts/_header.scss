@@ -1,0 +1,49 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #24292e;
+    height: 64px;
+    color: #ffffff;
+}
+.header .header--logo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .header--logo a i{
+    padding-left: 20px;
+    font-size: 25px;
+    margin-right: 20px;
+    color: #ffffff;
+}
+.header .header--logo a i:hover{
+    color:#a9a9a9;
+}
+.header .header--logo h3{
+    font-family: 'Lato';
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    font-size:25px;
+}
+.header .header--logo--links{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.header .header--logo--links a {
+    color:#fff;
+}
+.header .header--logo--links a:hover{
+    color:#a9a9a9;
+}
+.header .header--logo--links i{
+    font-size: 25px;
+    margin-right: 25px;
+}
+
+@media screen and (max-width: 600px) {
+    .header .header--logo h3 span{
+        display:none
+    }
+}
