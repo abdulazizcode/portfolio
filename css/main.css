@@ -19,6 +19,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-size: 10px;
+}
+
 .home {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.66) 100%, transparent), url("../img/home--background.jpeg");
   background-size: cover;
@@ -125,7 +129,7 @@ img {
   display: flex;
   justify-content: space-between;
   background-color: #24292e;
-  height: 64px;
+  height: 5rem;
   color: #fff;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
 }
@@ -137,9 +141,9 @@ img {
 }
 
 .header .header--logo a i {
-  padding-left: 20px;
-  font-size: 25px;
-  margin-right: 20px;
+  padding-left: 1.5rem;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
   color: #fff;
 }
 
@@ -151,14 +155,14 @@ img {
   font-family: "Lato";
   letter-spacing: 0.1em;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 1.5rem;
 }
 
 .header .header--logo--links {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 20px;
+  margin-right: 1.5rem;
 }
 
 .header .header--logo--links a {
@@ -170,13 +174,27 @@ img {
 }
 
 .header .header--logo--links i {
-  font-size: 25px;
-  margin-right: 25px;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 @media screen and (max-width: 600px) {
   .header .header--logo h3 span {
     display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .header .header--logo h3 {
+    display: none;
+  }
+
+  .header .header--logo--links {
+    margin-right: 0.5rem;
+  }
+
+  .header .header--logo--links i {
+    font-size: 1.5rem;
+    margin-right: 1rem;
   }
 }
 
