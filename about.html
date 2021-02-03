@@ -9,7 +9,7 @@
 <body>
     <header class="header">
         <div class="header--logo">
-            <a href=""><i class="fas fa-bars sil"></i></a>
+            <label for="close"><i onclick="overlay()" class="fas fa-bars sil"></i></label>
             <h3>Abdusamadzoda <span>Abdulaziz</span> </h>
         </div>
         <div class="header--logo--links">
@@ -20,10 +20,11 @@
     </header>
     <main class="about">
     </main>
-
-    <main class="side">
+      
+    <input type="checkbox" id="close">            
+    <nav class="side">
         <div class="side--header">
-            <div class="close"><i class="fas fa-window-close"></i></div>
+            <label for="close" class="close"><i onclick="overlay()" class="fas fa-window-close"></i></label>
             <div class="side--header__body">
                 <img src="./img/profile-img.jpg" alt="">
                 <div class="side--body__info">
@@ -51,8 +52,7 @@
                 </li>
             </ul>
         </div>
-    </main>
-
+    </nav>
 <script src="js/main.js"></script>
 </body>
 </html>

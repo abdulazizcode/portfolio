@@ -10,16 +10,22 @@
  }
 
 
-.side{
+nav{
     position: absolute;
     top:0;
-    left:0;
-    z-index:999;
     width: 300px;
     height: 100vh;
+    left:-300px;
     background-color: #fff;
+    transition: 0.4s ease-out;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
 }
+input:checked ~nav{
+    left:0;
+}
+input{
+    display:none;
+  }
 .side .side--header{
     display:flex;
     justify-content:center;
@@ -88,6 +94,14 @@
 .side--navigation li {
     padding:20px;
     width:100%;
+    margin-left:-100px;
+    opacity:0;
+    transition:0.8s ease-out;
+}
+
+input:checked ~ nav .side--navigation li{
+    margin-left:0;
+    opacity:1;
 }
 .side--navigation a{
     color: rgba(0,0,0,0.87);

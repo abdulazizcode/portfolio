@@ -1,8 +1,9 @@
-function myFunction() {
-    var x = document.getElementById("myDIV");
-    if (x.style.display === "none") {
-      x.style.display = "block";
+function overlay() {
+    var checkBox = document.getElementById("close");
+    var overlay = document.querySelector(".overlay");
+    if (checkBox.checked == true){
+        overlay.style.display = "block";
     } else {
-      x.style.display = "none";
+        overlay.style.display = "none";
     }
   }
