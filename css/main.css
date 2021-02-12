@@ -135,7 +135,6 @@ body {
 
 .about {
   background-color: #f3f3f3;
-  height: 100vh;
 }
 .about__header {
   display: flex;
@@ -362,11 +361,30 @@ input:checked ~ nav .side--navigation li {
   text-decoration: underline;
 }
 
+.footer {
+  background-color: #24292e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 4rem;
+  color: #fff;
+  font-size: 1rem;
+  margin-top: 1rem;
+  letter-spacing: 0.1em;
+  font-family: "Lato";
+}
+@media screen and (max-width: 800px) {
+  .footer {
+    flex-direction: column;
+  }
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   background-color: #24292e;
-  height: 5rem;
+  height: 4rem;
   color: #fff;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
 }
