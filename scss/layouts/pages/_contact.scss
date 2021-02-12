@@ -38,9 +38,12 @@
 
         div{
             margin-left: 50px;
+            &:hover{
+                filter: drop-shadow(rgb(34, 34, 34) 5px 5px 5px);
+            }
             @media screen and (max-width: 820px){
                 margin-left: 10px;
-            }
+        }
         }
     }
 }
