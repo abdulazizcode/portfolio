@@ -3,6 +3,11 @@
     flex-wrap: wrap;
     justify-content:space-around;
 
+    @media screen and (max-width: 600px){
+      
+        padding:30px;
+                }
+
 
    
 
@@ -18,6 +23,11 @@
         border: 1px solid rgba(0,0,0,.125);
         margin-bottom: 20px;
         position: relative;
+
+        @media screen and (max-width: 600px){
+  width:100%;
+                    }
+
     
 
         &:hover{
@@ -25,9 +35,19 @@
            }
         &__header{
             width:300px;
-
+            @media screen and (max-width: 600px){
+                width:100%;
+                background-size: cover;
+                        }
             img{
                 width:90%;
+                height:200px;
+                @media screen and (max-width: 600px){
+
+                    object-fit: contain;
+                width:100%;
+                
+                            }
             }
         }
 
@@ -43,10 +63,15 @@
             justify-content:space-around;
             margin-top: 2rem;
             button{
+                border: none;
+                
                 a{
                     display:inline-block;
-                    padding:8px;
+                    padding:10px;
                     width:100px;
+                    background-color: #24292e;
+                    color: #fff;
+                    border-radius: 5px;
                 }
             }
         }

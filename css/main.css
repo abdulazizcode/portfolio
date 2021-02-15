@@ -29,6 +29,7 @@ a {
 
 body {
   font-size: 10px;
+  background-color: #f3f3f3;
 }
 
 .home {
@@ -185,6 +186,11 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+@media screen and (max-width: 600px) {
+  .projects {
+    padding: 30px;
+  }
+}
 .projects__container {
   font-size: 1rem;
   padding: 20px;
@@ -198,14 +204,32 @@ body {
   margin-bottom: 20px;
   position: relative;
 }
+@media screen and (max-width: 600px) {
+  .projects__container {
+    width: 100%;
+  }
+}
 .projects__container:hover {
   box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
 }
 .projects__container__header {
   width: 300px;
 }
+@media screen and (max-width: 600px) {
+  .projects__container__header {
+    width: 100%;
+    background-size: cover;
+  }
+}
 .projects__container__header img {
   width: 90%;
+  height: 200px;
+}
+@media screen and (max-width: 600px) {
+  .projects__container__header img {
+    object-fit: contain;
+    width: 100%;
+  }
 }
 .projects__container__content {
   margin-top: 1.5rem;
@@ -218,10 +242,16 @@ body {
   justify-content: space-around;
   margin-top: 2rem;
 }
+.projects__container__buttons button {
+  border: none;
+}
 .projects__container__buttons button a {
   display: inline-block;
-  padding: 8px;
+  padding: 10px;
   width: 100px;
+  background-color: #24292e;
+  color: #fff;
+  border-radius: 5px;
 }
 
 .projectName__overlay {
