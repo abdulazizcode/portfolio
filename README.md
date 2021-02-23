@@ -1,12 +1,6 @@
 # Portfolio Website: [ONLINE HERE](https://abdulazizcode.github.io/portfolio/)
 
 ![Align right](https://github.com/abdulazizcode/portfolio/blob/master/img/profile-img.jpg#right)
-img[src$="#right"] {
-  display: block;
-  margin: 0 auto;
-  border-radius: 50%;
-  max-width: 50%;
-}
 
 This is a very simple portfolio website used to implement everything that i learned to apply on this page. The best thing
 about this project is, you can find the explanation to every line of code as a comment line.
@@ -27,3 +21,11 @@ about this project is, you can find the explanation to every line of code as a c
 5. Create a pull request.
 6. Sit back and relax while your pull request is reviewed and merged.
 
+<style>
+  img[src$="#right"] {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  max-width: 50%;
+}
+</style>
