@@ -2,7 +2,6 @@
 
 ![Align right](https://github.com/abdulazizcode/portfolio/blob/master/img/profile-img.jpg#right)
 
-![Align right](https://placeimg.com/250/200#right)
 
 This is a very simple portfolio website used to implement everything that i learned to apply on this page. The best thing
 about this project is, you can find the explanation to every line of code as a comment line.
@@ -24,9 +23,4 @@ about this project is, you can find the explanation to every line of code as a c
 6. Sit back and relax while your pull request is reviewed and merged.
 
 
-  img[src$="#right"] {
-  float: right;
-  margin-left: 1em;
-  margin-bottom: 1em;
-}
 
