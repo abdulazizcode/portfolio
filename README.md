@@ -1,5 +1,5 @@
 # Portfolio Website: [ONLINE HERE](https://abdulazizcode.github.io/portfolio/)
-![alt text](https://github.com/abdulazizcode/portfolio/blob/master/img/profile-img.jpg?raw=true |width="200" height="400")
+<img src="https://github.com/abdulazizcode/portfolio/blob/master/img/profile-img.jpg" width="100" height="100">
 This is a very simple portfolio website used to implement everything that i learned to apply on this page. The best thing
 about this project is, you can find the explanation to every line of code as a comment line.
 
