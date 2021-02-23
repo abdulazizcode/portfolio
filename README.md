@@ -2,7 +2,10 @@
 
 ![Align right](https://github.com/abdulazizcode/portfolio/blob/master/img/profile-img.jpg#right)
 img[src$="#right"] {
-border-radius:100%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  max-width: 50%;
 }
 
 This is a very simple portfolio website used to implement everything that i learned to apply on this page. The best thing
