@@ -23,18 +23,10 @@ about this project is, you can find the explanation to every line of code as a c
 5. Create a pull request.
 6. Sit back and relax while your pull request is reviewed and merged.
 
-<style>
-  img[src$="#right"] {
-  display: block;
-  margin: 0 auto;
-  border-radius: 50%;
-  max-width: 50%;
-}
 
-  
   img[src$="#right"] {
   float: right;
   margin-left: 1em;
   margin-bottom: 1em;
 }
-</style>
+
