@@ -1,7 +1,7 @@
 .projects{
     display:flex;
     flex-wrap: wrap;
-    justify-content:space-around;
+    justify-content:space-evenly;
     @media screen and (max-width: 600px){padding:30px;}
 
     &__container{
@@ -10,7 +10,7 @@
         font-family: 'Lato';
         font-weight: 500;
         line-height: 1.5;
-        width:300px;
+        width:500px;
         background-color: #fff;
         background-clip: border-box;
         border: 1px solid rgba(0,0,0,.125);
@@ -23,18 +23,19 @@
         }
 
         &__header{
-            width:300px;
+            width:100%;
             @media screen and (max-width: 600px){
                 width:100%;
                 background-size: cover;
             }
 
             img{
-                width:90%;
+                width:100%;
+                object-fit: contain;
                 height:200px;
                 @media screen and (max-width: 600px){
                 object-fit: contain;
-                width:100%;
+                width: 100%;
                }
             }
         }
